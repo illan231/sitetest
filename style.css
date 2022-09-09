@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(37, 101, 185);
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body .page{
+    margin: 20px 50px;
+}
+/* Barre de navigation*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgb(37, 101, 185);
+    padding: 10px 0px;
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+nav .onglets a{
+     margin-right: 35px;
+     margin-top: 15px;
+     text-decoration: none;
+     color: white;
+}
+
+nav .buttons button{
+    padding: 13px 10px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+nav .buttons .login{
+    background: white;
+    margin: 10px;
+    color: rgb(37, 101, 185);
+}
+
+nav .buttons .register{
+    background: red;
+    margin: 10px;
+    color: white;
+}
+/* Fin de la barre de navigation*/
+
+/*page*/
+header{
+    background-color: white;
+    color: black;
+    text-align: initial;
+    padding: 300px;
+}
+/*fin de page*/
+
+/*Pied de page*/
+footer{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    padding: 25px 100px;
+}
+footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*fin du pied de page*/
+
